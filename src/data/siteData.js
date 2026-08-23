@@ -52,7 +52,7 @@ export const siteData = {
       slug: 'polyurethane-foam',
       title: 'رغوة بولي يوريثان',
       icon: Layers,
-      bgImage: "/assets/categories/poly-foam.jpg",
+      bgImage: `${import.meta.env.BASE_URL}assets/categories/poly-foam.jpg`,
       description: 'رغوات عالية الجودة للتعبئة والتثبيت والعزل بكفاءة احترافية.'
     },
     {
@@ -60,7 +60,7 @@ export const siteData = {
       slug: 'silicone',
       title: 'سيليكون',
       icon: Droplets,
-      bgImage: "/assets/categories/silicone.jpg",
+      bgImage: `${import.meta.env.BASE_URL}assets/categories/silicone.jpg`,
       description: 'سيليكون ممتاز للغلق المحكم ومنع التسربات في كافة التطبيقات.'
     },
     {

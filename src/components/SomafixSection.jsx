@@ -18,7 +18,7 @@ const SomafixSection = () => {
               <div className="absolute inset-6 bg-somafix-red/10 rounded-[2.5rem] blur-2xl -z-10" aria-hidden="true" />
               <div className="bg-white rounded-3xl border border-gray-100 p-10 shadow-card-hover">
                 <img
-                  src="/assets/soma-logo-transparent.png"
+                  src={`${import.meta.env.BASE_URL}assets/soma-logo-transparent.png`}
                   alt={t('somafix.alt')}
                   className="w-full h-auto object-contain drop-shadow-sm"
                   loading="lazy"

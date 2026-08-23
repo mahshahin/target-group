@@ -12,7 +12,7 @@ const Hero = () => {
     >
       {/* Background Image spanning the entire section */}
       <img
-        src={isRTL ? "/assets/main-products.jpg" : "/assets/main-products-en.jpg"}
+        src={isRTL ? `${import.meta.env.BASE_URL}assets/main-products.jpg` : `${import.meta.env.BASE_URL}assets/main-products-en.jpg`}
         alt={t('hero.mainImageAlt')}
         className={`absolute inset-0 w-full h-full object-cover lg:object-fill mix-blend-multiply opacity-100 pointer-events-none z-0 ${isRTL ? 'object-left' : 'object-right'}`}
         style={{ filter: 'contrast(1.02)' }}
@@ -71,7 +71,7 @@ const Hero = () => {
                 {t('hero.exclusiveLine1')}
               </span>
               <img
-                src="/assets/soma-logo-transparent.png"
+                src={`${import.meta.env.BASE_URL}assets/soma-logo-transparent.png`}
                 alt={t('hero.somafixAlt')}
                 className="h-10 lg:h-14 w-auto object-contain drop-shadow-md mx-2 lg:mx-3 transform hover:scale-105 transition-transform duration-300 relative z-0"
                 loading="lazy"

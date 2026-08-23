@@ -21,7 +21,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-5">
             <div className="bg-white inline-block p-3 rounded-xl">
-              <img src="/assets/target-logo-transparent.png" alt="شعار شركة Target Group" className="h-9 w-auto object-contain" />
+              <img src={`${import.meta.env.BASE_URL}assets/target-logo-transparent.png`} alt="شعار شركة Target Group" className="h-9 w-auto object-contain" />
             </div>
             <p className="leading-relaxed text-sm">
               {t('footer.desc')}
