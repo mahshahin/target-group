@@ -19,11 +19,10 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${
-        isScrolled 
-          ? 'bg-[#edf2ef]/95 backdrop-blur-md shadow-nav py-1 lg:py-2' 
+      className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${isScrolled
+          ? 'bg-[#edf2ef]/95 backdrop-blur-md shadow-nav py-1 lg:py-2'
           : 'bg-transparent py-2 lg:py-3'
-      }`}
+        }`}
     >
       <div className="container-site">
         <div className={`flex items-center justify-between transition-all duration-300`}>
@@ -51,7 +50,7 @@ const Navbar = () => {
 
           {/* CTA Button & Lang Switcher */}
           <div className="hidden lg:flex flex-shrink-0 items-center gap-4">
-            <button 
+            <button
               onClick={() => i18n.changeLanguage(i18n.language === 'ar' ? 'en' : 'ar')}
               className="font-bold text-gray-700 hover:text-target-green-dark transition-colors text-sm uppercase"
             >
@@ -83,7 +82,7 @@ const Navbar = () => {
           }`}
       >
         <div className="container-site py-4 flex flex-col gap-1">
-          <button 
+          <button
             onClick={() => {
               i18n.changeLanguage(i18n.language === 'ar' ? 'en' : 'ar');
               setIsOpen(false);
@@ -92,7 +91,7 @@ const Navbar = () => {
           >
             {i18n.language === 'ar' ? 'English' : 'العربية'}
           </button>
-          
+
           {siteData.navigation.map((item) => (
             <a
               key={item.key}

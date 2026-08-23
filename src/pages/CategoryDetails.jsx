@@ -38,7 +38,7 @@ const CategoryDetails = () => {
   }
 
   return (
-    <div className="bg-gray-50 min-h-screen pb-20">
+    <div className="bg-gray-50 min-h-screen pb-20 pt-[72px] lg:pt-[84px]">
       {/* Category Header */}
       <div className="bg-target-green-deep text-white py-16 lg:py-20 relative overflow-hidden">
         <div className="absolute top-0 left-0 w-80 h-80 bg-target-green/15 rounded-full blur-[120px] pointer-events-none" aria-hidden="true" />

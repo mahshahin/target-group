@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative bg-white pt-28 lg:pt-40 pb-14 lg:pb-24 overflow-hidden flex items-center min-h-[90vh]"
+      className="relative bg-[#edf2ef] pt-28 lg:pt-36 pb-14 lg:pb-24 overflow-hidden flex items-center min-h-[90vh]"
     >
       {/* Background Image spanning the entire section */}
       <img
