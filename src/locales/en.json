@@ -1,0 +1,427 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "exhibitions": "Exhibitions",
+    "contact": "Contact Us",
+    "contactBtn": "Contact Us"
+  },
+  "hero": {
+    "badge": "Insulation & Building Chemicals",
+    "titleLine1": "Professional Solutions",
+    "titleLine2": "For Lasting Protection",
+    "desc": "A comprehensive range of high-quality insulation materials, adhesives, and building chemicals tailored to your projects' needs.",
+    "exploreBtn": "Explore Products",
+    "contactBtn": "Contact Us",
+    "exclusiveLine1": "Exclusive Agent for",
+    "exclusiveLine2": "in Egypt",
+    "somafixAlt": "SOMAFIX Agency Logo in Egypt",
+    "mainImageAlt": "A collection of insulation, adhesives, and building chemicals showcased at Target Group"
+  },
+  "somafix": {
+    "badge": "Leading Brand",
+    "titlePrefix": "SOMAFIX ... ",
+    "titleHighlight": "A Global Brand in Construction",
+    "desc": "SOMAFIX is globally recognized as a leading brand in producing insulation materials, adhesives, and polyurethane foams. Its products are characterized by high reliability and exceptional performance under various conditions, making it the first choice for professionals.",
+    "features": {
+      "f1": "Reliable Products",
+      "f2": "Advanced Technologies",
+      "f3": "Global Quality"
+    },
+    "alt": "SOMAFIX Global Building Chemicals Logo"
+  },
+  "whyUs": {
+    "eyebrow": "Why Target Group?",
+    "title": "Why Choose <1>Target</1> <2>Group</2>?",
+    "features": {
+      "f1Title": "High Quality",
+      "f1Desc": "Products matching the highest international standards.",
+      "f2Title": "Exclusive Agent",
+      "f2Desc": "Exclusive agent for SOMAFIX products in Egypt.",
+      "f3Title": "Tech Support",
+      "f3Desc": "Specialized team for support and consulting.",
+      "f4Title": "Fast Delivery",
+      "f4Desc": "Coverage and delivery to various governorates."
+    }
+  },
+  "products": {
+    "eyebrow": "Our Products",
+    "title": "Product Categories",
+    "subtitle": "We offer a wide range of specialized products that meet all construction and finishing needs with global quality.",
+    "cats": {
+      "c1Title": "PU Foam",
+      "c1Desc": "High-quality foams for filling, fixing, and insulation with professional efficiency.",
+      "c2Title": "Silicone",
+      "c2Desc": "Excellent silicone for tight sealing and leak prevention in all applications.",
+      "c3Title": "Insulators",
+      "c3Desc": "Integrated insulation solutions to protect facilities from water and heat leaks.",
+      "c4Title": "Someg Insulators",
+      "c4Desc": "Advanced insulators ensuring maximum protection and durability for projects.",
+      "c5Title": "Adhesives",
+      "c5Desc": "Strong and effective adhesives for all types of surfaces and multiple uses.",
+      "c6Title": "Industrial Sprays",
+      "c6Desc": "Specialized sprays to meet maintenance and industrial operational needs.",
+      "c7Title": "Guns",
+      "c7Desc": "Professional injection and dispensing guns ensuring accuracy and ease of use."
+    }
+  },
+  "exhibitions": {
+    "eyebrow": "Our Participations",
+    "title": "Exhibitions We Participated In",
+    "subtitle": "Some of the exhibitions and events where Target Group was present to offer the latest construction solutions and products.",
+    "hasVideo": "Exhibition video available",
+    "clickToAdd": "Click to add details",
+    "ex1": "First Exhibition Name",
+    "ex2": "Second Exhibition Name",
+    "ex3": "Third Exhibition Name",
+    "ex4": "Fourth Exhibition Name",
+    "ex5": "Fifth Exhibition Name",
+    "ex6": "Sixth Exhibition Name",
+    "ex7": "Seventh Exhibition Name",
+    "ex8": "Eighth Exhibition Name"
+  },
+  "about": {
+    "eyebrow": "About Us",
+    "title": "About <1>Target</1> <2>Group</2>",
+    "tagline": "Experience spanning since 2010",
+    "desc": "At <1>Target</1> <2>Group</2>, we take pride in being one of the leading companies in the Egyptian market in marketing and distributing insulation materials and specialized building chemicals. Driven by our firm commitment to quality, we always strive to provide the best solutions that ensure the sustainability and strength of projects.",
+    "features": {
+      "f1": "Specialized Team",
+      "f2": "Commitment to Quality",
+      "f3": "Customer Service",
+      "f4": "Integrated Solutions"
+    },
+    "statNum": "15",
+    "statText1": "Years of Excellence",
+    "statText2": "Serving the Egyptian Construction Sector"
+  },
+  "statistics": {
+    "s1Num": "+500",
+    "s1Text": "Clients & Projects",
+    "s2Num": "+15",
+    "s2Text": "Years of Experience",
+    "s3Num": "+100",
+    "s3Text": "High-Quality Products",
+    "s4Num": "All Governorates",
+    "s4Text": "Coverage & Delivery"
+  },
+  "contactCta": {
+    "eyebrow": "Our team is ready to answer you",
+    "title": "Contact Us",
+    "desc": "Our team is ready to answer all your inquiries and provide the best solutions for your projects. Do not hesitate to contact us.",
+    "callUs": "Call Us",
+    "emailUs": "Email Us"
+  },
+  "footer": {
+    "desc": "Your reliable partner in insulation materials and building chemicals. We offer the best solutions to ensure the quality of your projects.",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Information",
+    "newsletter": "Newsletter",
+    "newsletterDesc": "Subscribe to our newsletter to receive the latest updates on our products and offers.",
+    "emailPlaceholder": "Email Address",
+    "subscribe": "Subscribe",
+    "rights": "All Rights Reserved © {{year}} <1>Target</1> <2>Group</2> — Exclusive Agent for SOMAFIX products in Egypt",
+    "alt": "Target Group Logo"
+  },
+  "category": {
+    "notFound": "Sorry, we couldn't find this category.",
+    "backToHome": "Back to Home",
+    "products": "Products",
+    "noProductsYet": "Coming soon... Products for this category are being added."
+  },
+  "productDetails": {
+    "featuresLabel": "General Features",
+    "usageAreasLabel": "Areas of Use",
+    "howToUseLabel": "How to Use",
+    "techInfoLabel": "Technical Information",
+    "packagingLabel": "Packaging Data"
+  },
+  "catalog": {
+    "s959": {
+      "name": "Ultra Mega Polyurethane Gun Foam S959",
+      "features": "Ultra mega polyurethane gun foam, large volume, used for filling, sealing and installing materials. Multi-purpose foam relies on air moisture for full curing. It is recommended to spray water on the foam and application area before, during and after use.",
+      "usageAreas": "Used for filling cracks, gaps, voids, holes, and fixing door frames, windows and similar partitions. Provides heat and cold insulation in electrical installations and hot/cold water pipes. After the foam dries within 1-3 hours, it can be shaped, cut and painted. Used for bonding all kinds of building materials except silicone, teflon, polyurethane and polypropylene. Resistant to all kinds of weather conditions, seawater, steam and moisture. Not easily flammable.",
+      "howToUse": "Shake the can vigorously for 30 seconds. Attach the can to the foam gun. Remove dirt, dust and grease from the application surface and spray water on it (spraying water on the application area and foam accelerates foam curing and yields larger volume). During use, turn the can upside down. For reusing the can in subsequent applications, dry foam residue must be removed from the gun and can nozzle. It is preferable to clean foam residue from the can using polyurethane foam cleaner. Because the foam is expandable, precise amounts of foam should be applied to the desired area.",
+      "tech": [
+        { "label": "Chemical Base", "value": "Polyurethane" },
+        { "label": "Curing System", "value": "Moisture" },
+        { "label": "Skin Formation Time", "value": "8 - 10 minutes" },
+        { "label": "Cutting Time", "value": "30 - 45 minutes" },
+        { "label": "Density", "value": "17 - 20 kg / m3" },
+        { "label": "Temperature Resistance", "value": "-40 / +100 °C" },
+        { "label": "Yield", "value": "75 Liters" },
+        { "label": "Thermal Conductivity", "value": "0.039 W / K" },
+        { "label": "Application Temperature", "value": "+0 / +35 °C" },
+        { "label": "Storage Temperature", "value": "+0 / +30 °C" },
+        { "label": "Ideal Can Temperature", "value": "+20 °C" }
+      ],
+      "packaging": [
+        { "label": "Shelf Life", "value": "18 months" },
+        { "label": "Packaging", "value": "12 pcs / carton" },
+        { "label": "Volume", "value": "870 ml" }
+      ]
+    },
+    "s960": {
+      "name": "Fast Curing Polyurethane Gun Foam S960",
+      "features": "High performance fast curing polyurethane foam, thanks to its special and advanced formula it provides faster work. It features excellent adhesion power on all types of materials. It can be cut 10 minutes after application and reaches full curing in one and a half hours.",
+      "usageAreas": "Used for repairing and fixing doors, window frames and similar partitions, insulating electrical installations and hot/cold water pipes, and sealing gaps, holes and cracks. Can adhere to all types of building materials except silicone, teflon, polyethylene and polypropylene.",
+      "howToUse": "Clean the application area from dirt, oils and dust and spray it with water. Shake the can vigorously for up to 30 seconds. Insert the tube into the gun and turn the can upside down. Let the foam out by pressing the gun trigger. Adjust the foam output rate and volume using the valve at the back of the gun. To reuse the can in subsequent applications, dry foam residue must be removed from the gun and can nozzle. It is preferable to clean foam residue from the can using polyurethane foam cleaner. Because the foam expands and expands, precise amounts of foam should be used on the desired area.",
+      "tech": [
+        { "label": "Chemical Base", "value": "Polyurethane" },
+        { "label": "Curing System", "value": "Moisture" },
+        { "label": "Skin Formation Time", "value": "3 - 5 minutes" },
+        { "label": "Cutting Time", "value": "10 minutes" },
+        { "label": "Density", "value": "17 - 20 kg / m3" },
+        { "label": "Temperature Resistance", "value": "-40 / +100 °C" },
+        { "label": "Yield", "value": "70 Liters" },
+        { "label": "Application Temperature", "value": "+0 / +35 °C" },
+        { "label": "Storage Temperature", "value": "+0 / +30 °C" },
+        { "label": "Ideal Can Temperature", "value": "+20 °C" }
+      ],
+      "packaging": [
+        { "label": "Shelf Life", "value": "18 months" },
+        { "label": "Packaging", "value": "12 pcs / carton" },
+        { "label": "Volume", "value": "870 ml" }
+      ]
+    },
+    "s957": {
+      "name": "Mega Plus Polyurethane Gun Foam S957",
+      "features": "Mega Plus polyurethane gun foam, large volume to cover wide areas. Used for filling, sealing and installing materials. Multi-purpose foam as it relies on air moisture for curing. It is recommended to spray water on the foam and desired area before, during and after use.",
+      "usageAreas": "Used for insulating hot and cold water pipes and electrical equipment, filling gaps, holes and cracks. After the foam dries within 1-3 hours, it can be shaped, cut and painted. Used for bonding all kinds of building materials except silicone, teflon, polyurethane and polypropylene. Resistant to all kinds of weather conditions, seawater, steam and moisture. Not easily flammable.",
+      "howToUse": "Shake the can vigorously for 30 seconds. Attach the can to the foam gun. Remove dirt, dust and grease from the application surface and spray water on it (spraying water on the application area and foam accelerates foam curing and yields larger volume). During use, turn the can upside down. For reusing the can in subsequent applications, dry foam residue must be removed from the gun and can nozzle. It is preferable to clean foam residue from the can using polyurethane foam cleaner. Because the foam expands, precise amounts of foam should be used on the desired area.",
+      "tech": [
+        { "label": "Chemical Base", "value": "Polyurethane" },
+        { "label": "Curing System", "value": "Moisture" },
+        { "label": "Skin Formation Time", "value": "8 - 10 minutes" },
+        { "label": "Cutting Time", "value": "30 - 45 minutes" },
+        { "label": "Density", "value": "17 - 20 kg / m3" },
+        { "label": "Temperature Resistance", "value": "-40 / +100 °C" },
+        { "label": "Yield", "value": "65 Liters" },
+        { "label": "Thermal Conductivity", "value": "0.039 W / K" },
+        { "label": "Application Temperature", "value": "+0 / +35 °C" },
+        { "label": "Storage Temperature", "value": "+0 / +30 °C" },
+        { "label": "Ideal Can Temperature", "value": "+20 °C" }
+      ],
+      "packaging": [
+        { "label": "Shelf Life", "value": "18 months" },
+        { "label": "Packaging", "value": "12 pcs / carton" },
+        { "label": "Volume", "value": "850 ml" }
+      ]
+    },
+    "s951": {
+      "name": "Mega Polyurethane Gun Foam S951",
+      "features": "Mega polyurethane gun foam, large volume to cover wide areas. Used for filling, sealing and installing materials. Multi-purpose foam as it relies on air moisture. It is recommended to spray water on the foam and desired area before, during and after use.",
+      "usageAreas": "Used for filling cracks, gaps, voids, holes, and fixing door frames and similar frames. Provides heat and cold insulation in electrical installations and hot/cold water pipes. After the foam dries within 1-3 hours, it can be shaped, cut and painted. Used for bonding all kinds of building materials except silicone, teflon, polyurethane and polypropylene. Resistant to all kinds of weather conditions, seawater, steam and moisture. Not easily flammable.",
+      "howToUse": "Shake the can vigorously for 30 seconds. Attach the can to the foam gun. Remove dirt, dust and grease from the application surface and spray water on it (spraying water on the application area and foam accelerates foam curing and yields larger volume). During use, turn the can upside down. For reusing the can in subsequent applications, dry foam residue must be removed from the gun and can nozzle. It is preferable to clean foam residue from the can using polyurethane foam cleaner. Because the foam expands, precise amounts of foam should be used on the desired area.",
+      "tech": [
+        { "label": "Chemical Base", "value": "Polyurethane" },
+        { "label": "Curing System", "value": "Moisture" },
+        { "label": "Skin Formation Time", "value": "8 - 10 minutes" },
+        { "label": "Cutting Time", "value": "30 - 45 minutes" },
+        { "label": "Density", "value": "17 - 20 kg / m3" },
+        { "label": "Temperature Resistance", "value": "-40 / +100 °C" },
+        { "label": "Yield", "value": "65 Liters" },
+        { "label": "Thermal Conductivity", "value": "0.039 W / K" },
+        { "label": "Application Temperature", "value": "+0 / +35 °C" },
+        { "label": "Storage Temperature", "value": "+0 / +30 °C" },
+        { "label": "Ideal Can Temperature", "value": "+20 °C" }
+      ],
+      "packaging": [
+        { "label": "Shelf Life", "value": "18 months" },
+        { "label": "Packaging", "value": "12 pcs / carton" },
+        { "label": "Volume", "value": "850 ml" }
+      ]
+    },
+    "s935": {
+      "name": "Polyurethane Gun Foam S935",
+      "features": "Polyurethane gun foam, used for filling, sealing and installing materials. Multi-purpose foam as it relies on air moisture. It is recommended to spray water on the foam and desired area before, during and after use.",
+      "usageAreas": "Used for filling cracks, gaps, voids, holes, and fixing door frames and similar frames. Provides heat and cold insulation in electrical installations and hot/cold water pipes. After the foam dries within 1-3 hours, it can be shaped and painted. Used for bonding all kinds of building materials except silicone, teflon, polyethylene and polypropylene. Resistant to all kinds of weather conditions, seawater, steam and moisture. Not easily flammable.",
+      "howToUse": "Shake the can vigorously for 30 seconds. Attach the can to the foam gun. Remove dirt, dust and grease from the application surface and spray water on it (spraying water on the application area and foam accelerates foam curing and yields larger volume). During use, turn the can upside down. For reusing the can in subsequent applications, dry foam residue must be removed from the gun and can nozzle. It is preferable to clean foam residue from the can using polyurethane foam cleaner. Because the foam expands, precise amounts of foam should be used on the desired area.",
+      "tech": [
+        { "label": "Chemical Base", "value": "Polyurethane" },
+        { "label": "Curing System", "value": "Moisture" },
+        { "label": "Skin Formation Time", "value": "8 - 10 minutes" },
+        { "label": "Cutting Time", "value": "30 - 45 minutes" },
+        { "label": "Density", "value": "17 - 20 kg / m3" },
+        { "label": "Temperature Resistance", "value": "-40 / +100 °C" },
+        { "label": "Yield", "value": "65 Liters" },
+        { "label": "Thermal Conductivity", "value": "0.039 W / K" },
+        { "label": "Application Temperature", "value": "+0 / +35 °C" },
+        { "label": "Storage Temperature", "value": "+0 / +30 °C" },
+        { "label": "Ideal Can Temperature", "value": "+20 °C" }
+      ],
+      "packaging": [
+        { "label": "Shelf Life", "value": "18 months" },
+        { "label": "Packaging", "value": "12 pcs / carton" },
+        { "label": "Volume", "value": "800 ml" }
+      ]
+    },
+    "s940": {
+      "name": "Insulation Spray Polyurethane Gun Foam S940",
+      "features": "Spray polyurethane insulation foam, highly effective thermal and acoustic insulation properties. It has excellent adhesion power to all types of materials.",
+      "usageAreas": "Used for insulating walls, doors, pipes, ceilings, attics, floors, tanks, etc. Easily and efficiently applied using its special valve. When applied at a thickness of 2 cm, one can provides up to 2 square meters of insulation.",
+      "howToUse": "Shake the can vigorously for 30 seconds. Turn the can upside down and attach the gun to the can. Place the special application nozzle for each can on the tip of the gun. Adjust the nozzle to reach the application position. The application area must be cleaned of dirt, dust and grease and the surface must be moistened before application. Spray from a distance of 30-40 cm. The speed and amount of foam can be adjusted using the screw at the back of the gun. If desired, additional layers can be applied 30 minutes after the first layer. The width and thickness of the foam can be adjusted by changing the distance between the gun and the desired surface. Any foam residue on the gun and surface must be cleaned using polyurethane foam cleaner.",
+      "tech": [
+        { "label": "Chemical Base", "value": "Polyurethane" },
+        { "label": "Curing System", "value": "Moisture" },
+        { "label": "Skin Formation Time", "value": "5 - 10 minutes" },
+        { "label": "Cutting Time", "value": "After 60 minutes" },
+        { "label": "Density", "value": "17 - 20 kg / m3" },
+        { "label": "Temperature Resistance", "value": "-40 / +100 °C" },
+        { "label": "Yield", "value": "2 cm width - 2 square meters / 1.5 cm width - 3 square meters" },
+        { "label": "Thermal Conductivity", "value": "0.033 K / W" },
+        { "label": "Ideal Can Temperature", "value": "+20 °C" },
+        { "label": "Application Temperature", "value": "+5 / +30 °C" },
+        { "label": "Storage Temperature", "value": "+5 / +30 °C" }
+      ],
+      "packaging": [
+        { "label": "Shelf Life", "value": "12 months" },
+        { "label": "Packaging", "value": "12 pcs / carton" },
+        { "label": "Volume", "value": "850 ml" }
+      ]
+    },
+    "s919": {
+      "name": "Brick & Gas Concrete Adhesive Gun Foam S919",
+      "features": "Adhesive foam for brick and gas concrete. Specially developed to be an alternative to traditional methods and to bond a variety of solid and hollow bricks, blocks, granite, marble, roofing tiles, natural stone, rocks and other building products. This foam is ideal for building retaining walls, partition walls, gypsum boards, plywood, sills, outbuildings and a wide range of other structures made of bricks or blocks.",
+      "usageAreas": "Cures within 15-25 minutes. Bonds to all types of building materials except silicone, teflon, polyethylene and polypropylene. It is resistant to all types of weather, seawater, hard water, dilute acids, steam and moisture.",
+      "howToUse": "Shake the can vigorously for 30 seconds. Attach the foam gun to the can. Remove dirt, dust and grease from the application area and moisten it with water. During use, turn the can upside down and press the gun trigger. Apply the adhesive foam along the horizontal and vertical sections to be bonded. Place the brick or concrete immediately on top of the other brick or concrete. Remove excess foam immediately using polyurethane foam cleaner.",
+      "tech": [
+        { "label": "Chemical Base", "value": "Polyurethane" },
+        { "label": "Curing System", "value": "Moisture" },
+        { "label": "Skin Formation Time", "value": "8 - 10 minutes" },
+        { "label": "Density", "value": "17 - 20 kg / m3" },
+        { "label": "Temperature Resistance", "value": "-40 / +100 °C" },
+        { "label": "Yield", "value": "12 - 14 square meters" },
+        { "label": "Application Temperature", "value": "+0 / +35 °C" },
+        { "label": "Storage Temperature", "value": "+0 / +30 °C" },
+        { "label": "Ideal Can Temperature", "value": "+20 °C" }
+      ],
+      "packaging": [
+        { "label": "Shelf Life", "value": "15 months" },
+        { "label": "Packaging", "value": "12 pcs / carton" },
+        { "label": "Volume", "value": "750 ml" }
+      ]
+    },
+    "s921": {
+      "name": "Low Expansion Polyurethane Gun Foam S921",
+      "features": "Low expansion polyurethane foam used for filling, sealing and installing materials. Thanks to its low expansion properties, it prevents pushing or pulling door and window frames inwards or outwards.",
+      "usageAreas": "For fixing doors, windows and similar frames, used for insulating hot and cold water pipes and electrical equipment, and for repairing gaps, holes and cracks. Used for bonding all kinds of building materials except silicone, teflon, polyurethane and polypropylene. Resistant to all kinds of weather conditions, seawater, steam and moisture. After the foam dries within 1-3 hours, it can be shaped and painted. Not easily flammable.",
+      "howToUse": "Shake the can vigorously for 30 seconds. Attach the can to the foam gun. Remove dirt, dust and grease from the application surface and spray water on it (spraying water on the application area and foam accelerates foam curing and yields larger volume). During use, turn the can upside down. For reusing the can in subsequent applications, dry foam residue must be removed from the gun and can nozzle. It is preferable to clean foam residue from the can using polyurethane foam cleaner. Because the foam expands, precise amounts of foam should be used on the desired area.",
+      "tech": [
+        { "label": "Chemical Base", "value": "Polyurethane" },
+        { "label": "Curing System", "value": "Moisture" },
+        { "label": "Skin Formation Time", "value": "8 - 10 minutes" },
+        { "label": "Cutting Time", "value": "15 - 20 minutes" },
+        { "label": "Density", "value": "15 - 18 kg / m3" },
+        { "label": "Temperature Resistance", "value": "-40 / +100 °C" },
+        { "label": "Yield", "value": "45 - 55 Liters" },
+        { "label": "Thermal Conductivity", "value": "0.0344 K / W" },
+        { "label": "Application Temperature", "value": "+0 / +35 °C" },
+        { "label": "Storage Temperature", "value": "+0 / +30 °C" },
+        { "label": "Ideal Can Temperature", "value": "+20 °C" }
+      ],
+      "packaging": [
+        { "label": "Shelf Life", "value": "15 months" },
+        { "label": "Packaging", "value": "12 pcs / carton" },
+        { "label": "Volume", "value": "750 ml" }
+      ]
+    },
+    "se280": {
+      "name": "Universal Silicone SE280",
+      "features": "Universal silicone with single main component, flexible, solvent-free, made of 100% silicone. Cures with moisture. Highly adhesive. Unpaintable. Used for bonding parquet and molds. Easy to use, highly adhesive. High quality for home use, does not turn yellow. Shrinkage less than 15% and has an excellent appearance and high transparency.",
+      "usageAreas": "Has excellent performance in bonding parquet, installing wood, doors, windows, panels, and molds. Also used in fixing wooden furniture, cabinets, wardrobes, stairs, and installing and fixing decorative wood.",
+      "howToUse": "Make sure the surface on which the silicone is to be applied is dry, clean, and free of dust and grease. Cut the can valve and attach it to the gun. Apply the silicone on the surface in a strip. Clean any silicone residue simply with soap and water.",
+      "tech": [
+        { "label": "Chemical Base", "value": "Acidic" },
+        { "label": "Skin Formation Time", "value": "5 - 20 minutes" },
+        { "label": "Curing Speed", "value": "4 - 5 mm / day" },
+        { "label": "Density", "value": "0.96 - 0.98 g / cm3" },
+        { "label": "Maximum Elongation", "value": "250% ± 30" },
+        { "label": "Tensile Strength", "value": "0.5 ± 0.1 N / mm2" },
+        { "label": "Shore Hardness", "value": "18" },
+        { "label": "Temperature Resistance", "value": "-40 / +180 °C" },
+        { "label": "Application Temperature", "value": "+5 / +40 °C" },
+        { "label": "Storage Temperature", "value": "+0 / +35 °C" },
+        { "label": "Colors", "value": "Transparent SE280 | White SE281 | Black SE282 | Brown SE283 | Grey SE284 | Aluminum SE285 | Beige SE286 | Light Brown SE287 | Champagne SE288 | Anthracite SE289" }
+      ],
+      "packaging": [
+        { "label": "Shelf Life", "value": "18 months" },
+        { "label": "Packaging", "value": "24 pcs / carton" },
+        { "label": "Weight", "value": "280 grams" }
+      ]
+    },
+    "s200": {
+      "name": "Universal Silicone S200",
+      "features": "Universal silicone with single main component, flexible, solvent-free, made of 100% silicone. Cures with moisture. Highly adhesive. Unpaintable. Used for bonding parquet and molds. Easy to use, highly adhesive. High quality for home use, does not turn yellow. Shrinkage less than 15% and has an excellent appearance and high transparency.",
+      "usageAreas": "Has excellent performance in bonding parquet, installing wood, doors, windows, panels, and molds. Also used in fixing wooden furniture, cabinets, wardrobes, stairs, and installing and fixing decorative wood.",
+      "howToUse": "Make sure the surface on which the silicone is to be applied is dry, clean, and free of dust and grease. Cut the can valve and attach it to the gun. Apply the silicone on the surface in a strip. Clean any silicone residue simply with soap and water.",
+      "tech": [
+        { "label": "Chemical Base", "value": "Acidic" },
+        { "label": "Skin Formation Time", "value": "5 - 20 minutes" },
+        { "label": "Curing Speed", "value": "4 - 5 mm / day" },
+        { "label": "Density", "value": "0.96 - 0.98 g / cm3" },
+        { "label": "Maximum Elongation", "value": "250% ± 30" },
+        { "label": "Tensile Strength", "value": "0.5 ± 0.1 N / mm2" },
+        { "label": "Shore Hardness", "value": "18" },
+        { "label": "Temperature Resistance", "value": "-40 / +180 °C" },
+        { "label": "Application Temperature", "value": "+5 / +40 °C" },
+        { "label": "Storage Temperature", "value": "+0 / +35 °C" },
+        { "label": "Colors", "value": "Transparent S200 | White S201 | Black S202 | Brown S203 | Grey S204 | Aluminum S205 | Beige S206 | Light Brown S207 | Champagne S208 | Anthracite S209" }
+      ],
+      "packaging": [
+        { "label": "Shelf Life", "value": "18 months" },
+        { "label": "Packaging", "value": "24 pcs / carton" },
+        { "label": "Volume", "value": "280 ml" }
+      ]
+    },
+    "s300": {
+      "name": "Universal Silicone S300",
+      "features": "Universal silicone with single main component, flexible, solvent-free, made of 100% silicone. Cures with moisture. Highly adhesive. Unpaintable. Used for bonding parquet and molds. Easy to use, highly adhesive. High quality for home use, does not turn yellow. Shrinkage less than 15% and has an excellent appearance and high transparency.",
+      "usageAreas": "Has excellent performance in bonding parquet, installing wood, doors, windows, panels, and molds. Also used in fixing wooden furniture, cabinets, wardrobes, stairs, and installing and fixing decorative wood.",
+      "howToUse": "Make sure the surface on which the silicone is to be applied is dry, clean, and free of dust and grease. Cut the can valve and attach it to the gun. Apply the silicone on the surface in a strip. Clean any silicone residue simply with soap and water.",
+      "tech": [
+        { "label": "Chemical Base", "value": "Acidic" },
+        { "label": "Skin Formation Time", "value": "5 - 20 minutes" },
+        { "label": "Curing Speed", "value": "4 - 5 mm / day" },
+        { "label": "Density", "value": "0.96 - 0.98 g / cm3" },
+        { "label": "Maximum Elongation", "value": "250% ± 30" },
+        { "label": "Tensile Strength", "value": "0.5 ± 0.1 N / mm2" },
+        { "label": "Shore Hardness", "value": "18" },
+        { "label": "Temperature Resistance", "value": "-40 / +180 °C" },
+        { "label": "Application Temperature", "value": "+5 / +40 °C" },
+        { "label": "Storage Temperature", "value": "+0 / +35 °C" },
+        { "label": "Colors", "value": "Transparent S300 | White S301 | Black S302 | Brown S303 | Grey S304 | Aluminum S305 | Beige S306 | Light Brown S307 | Champagne S308 | Anthracite S309" }
+      ],
+      "packaging": [
+        { "label": "Shelf Life", "value": "18 months" },
+        { "label": "Packaging", "value": "24 pcs / carton" },
+        { "label": "Volume", "value": "310 ml" }
+      ]
+    },
+    "s220": {
+      "name": "Aquarium Silicone (S220 - S222)",
+      "features": "A silicone sealant with a single acidic chemical component, characterized by excellent mechanical properties and the ability to bond to many non-porous siliceous materials without the use of a primer. It has a high curing speed in aquariums and industrial applications. It is recommended to cure the product at room temperature to give it permanently flexible silicone properties. Does not yellow. Does not sag. Special high viscosity paste. Easy to attach to the gun. Its surface dries quickly. Shrinks slightly during use. Has good properties when used with a tool. It is flexible at low temperatures (-40 °C) and high temperatures (180 °C).",
+      "usageAreas": "Used in sealing joints exposed to heavy mechanical loads and in sealing joints that require the generation of rapid mechanical strength. Suitable for building aquariums that meet DIN 32 622 requirements. The adhesive thickness must be at least 1 mm. During use, the temperature must be between 5 °C and 40 °C. It is suitable for use in glazing, industrial applications, and the construction of silos and containers.",
+      "howToUse": "Make sure the surface on which the silicone is to be applied is dry, clean, and free of dust and grease. Cut the tip of the can and place it in the gun. Apply the silicone on the surface in a strip. Clean any silicone residue simply with soap and water.",
+      "tech": [
+        { "label": "Chemical Base", "value": "Acidic" },
+        { "label": "Skin Formation Time", "value": "5 - 20 minutes" },
+        { "label": "Curing Speed", "value": "4 - 5 mm / day" },
+        { "label": "Density", "value": "1.01 g / cm3 ± 0.01" },
+        { "label": "Maximum Elongation", "value": "300% ± 30" },
+        { "label": "Tensile Strength", "value": "0.6 ± 0.1 N / mm2" },
+        { "label": "Shore Hardness", "value": "20" },
+        { "label": "Temperature Resistance", "value": "-40 / +180 °C" },
+        { "label": "Application Temperature", "value": "+5 / +40 °C" },
+        { "label": "Storage Temperature", "value": "+0 / +35 °C" },
+        { "label": "Colors", "value": "Transparent S220 | White S221 | Black S222" }
+      ],
+      "packaging": [
+        { "label": "Shelf Life", "value": "18 months" },
+        { "label": "Packaging", "value": "24 pcs / carton" },
+        { "label": "Volume", "value": "310 ml" }
+      ]
+    }
+  }
+}
