@@ -13,6 +13,8 @@ export default {
         'target-green-deep': '#0A4A2E',  // Deep green (footer / stats)
         'target-green-light': '#E7F5EE', // Light tint (backgrounds)
         'somafix-red': '#E91B24',        // SOMAFIX red (accent only)
+        'somafix-red-deep': '#C01017',   // Darker red (small text on light tint — AA contrast)
+        'somafix-red-bright': '#FF8A8E', // Lighter red (text on dark green surfaces — AA contrast)
         'somafix-red-light': '#FDEBEC',  // Light red tint
       },
       fontFamily: {

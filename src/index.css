@@ -19,12 +19,18 @@
   ::selection {
     @apply bg-target-green text-white;
   }
+
+  /* Consistent, brand-colored keyboard focus state */
+  :focus-visible {
+    outline: 2px solid #008f4a;
+    outline-offset: 2px;
+  }
 }
 
 @layer components {
   /* Shared site container — consistent max-width + responsive horizontal padding */
   .container-site {
-    @apply mx-auto w-full max-w-site px-4 sm:px-6 lg:px-8;
+    @apply mx-auto w-full max-w-site px-5 sm:px-8 lg:px-16 xl:px-24;
   }
 
   .container-narrow {

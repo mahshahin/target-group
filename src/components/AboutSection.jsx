@@ -1,7 +1,6 @@
 import React from 'react';
 import { useTranslation, Trans } from 'react-i18next';
 import SectionHeading from './SectionHeading';
-import { siteData } from '../data/siteData';
 import { Target, ShieldCheck, BadgeCheck, Boxes } from 'lucide-react';
 
 const featureIcons = [Target, ShieldCheck, BadgeCheck, Boxes];
@@ -61,7 +60,7 @@ const AboutSection = () => {
 
           {/* Abstract Visual — Left */}
           <div className="lg:w-1/2 w-full flex justify-center lg:justify-end">
-            <div className="relative w-full max-w-md aspect-square bg-white/5 rounded-[2.5rem] flex flex-col items-center justify-center border border-white/10 overflow-hidden group">
+            <div className="relative w-full max-w-md aspect-square bg-white/5 rounded-3xl sm:rounded-[2.5rem] flex flex-col items-center justify-center border border-white/10 overflow-hidden group">
               {/* Decorative elements */}
               <div className="absolute top-0 right-0 w-full h-full bg-gradient-to-br from-white/10 to-transparent" aria-hidden="true" />
               <div className="absolute -top-12 -right-12 w-44 h-44 bg-white/10 rounded-full blur-3xl group-hover:bg-white/20 transition-all duration-700" aria-hidden="true" />

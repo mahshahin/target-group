@@ -47,8 +47,8 @@ const CategoryDetails = () => {
             {isRTL ? <ArrowRight size={16} /> : <ArrowLeft size={16} />}
             {t('category.backToHome')}
           </Link>
-          <h1 className="text-4xl lg:text-5xl font-black mb-4">{t(`products.cats.c${category.id}Title`)}</h1>
-          <p className="text-lg text-white/80 max-w-2xl">{t(`products.cats.c${category.id}Desc`)}</p>
+          <h1 className="text-4xl lg:text-5xl font-black mb-4 leading-[1.25] tracking-tightest">{t(`products.cats.c${category.id}Title`)}</h1>
+          <p className="text-lg text-white/80 max-w-2xl leading-relaxed">{t(`products.cats.c${category.id}Desc`)}</p>
         </div>
       </div>
 

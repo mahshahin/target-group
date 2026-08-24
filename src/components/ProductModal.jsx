@@ -2,10 +2,24 @@ import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { X, CheckCircle2, ChevronDown, ChevronUp } from 'lucide-react';
 
+const AccordionHeader = ({ title, section, isOpen, onToggle }) => (
+  <h3>
+    <button
+      type="button"
+      onClick={() => onToggle(section)}
+      aria-expanded={isOpen}
+      className="w-full flex items-center justify-between py-4 border-b border-gray-100 hover:text-target-green transition-colors focus:outline-none text-start"
+    >
+      <span className="text-lg font-bold text-gray-900">{title}</span>
+      {isOpen ? <ChevronUp size={20} className="text-target-green" /> : <ChevronDown size={20} className="text-gray-400" />}
+    </button>
+  </h3>
+);
+
 const ProductModal = ({ product, isOpen, onClose }) => {
   const { t, i18n } = useTranslation();
   const isRTL = i18n.language === 'ar';
-  
+
   // Sections toggle states
   const [openSections, setOpenSections] = useState({
     features: true,
@@ -35,16 +49,6 @@ const ProductModal = ({ product, isOpen, onClose }) => {
   const techInfo = t(`catalog.${product.id}.tech`, { returnObjects: true });
   const packagingInfo = t(`catalog.${product.id}.packaging`, { returnObjects: true });
 
-  const AccordionHeader = ({ title, section, defaultOpen }) => (
-    <button
-      onClick={() => toggleSection(section)}
-      className="w-full flex items-center justify-between py-4 border-b border-gray-100 hover:text-target-green transition-colors focus:outline-none"
-    >
-      <h3 className="text-lg font-bold text-gray-900">{title}</h3>
-      {openSections[section] ? <ChevronUp size={20} className="text-target-green" /> : <ChevronDown size={20} className="text-gray-400" />}
-    </button>
-  );
-
   return (
     <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-6" dir={isRTL ? 'rtl' : 'ltr'}>
       {/* Backdrop */}
@@ -54,28 +58,29 @@ const ProductModal = ({ product, isOpen, onClose }) => {
       />
       
       {/* Modal Content */}
-      <div className="relative bg-white rounded-3xl shadow-2xl w-full max-w-5xl max-h-[90vh] overflow-hidden flex flex-col md:flex-row transform transition-all">
+      <div className="relative bg-white rounded-3xl shadow-card-hover w-full max-w-5xl max-h-[90vh] overflow-hidden flex flex-col md:flex-row">
         {/* Close Button */}
         <button
           onClick={onClose}
+          aria-label="Close"
           className={`absolute top-4 ${isRTL ? 'left-4' : 'right-4'} z-10 w-10 h-10 bg-white/80 backdrop-blur-md rounded-full flex items-center justify-center text-gray-600 hover:bg-target-green hover:text-white transition-all shadow-sm`}
         >
           <X size={20} />
         </button>
 
         {/* Image Section */}
-        <div className="w-full md:w-2/5 bg-gray-50 flex items-center justify-center p-8 md:p-12 relative">
+        <div className="w-full md:w-2/5 bg-gray-50 flex items-center justify-center p-6 sm:p-8 md:p-12 relative">
           <div className="absolute inset-0 bg-target-green/5 opacity-50 mix-blend-multiply" />
           <img 
             src={product.image} 
             alt={t(`catalog.${product.id}.name`)} 
-            className="w-full h-auto max-h-[40vh] md:max-h-[70vh] object-contain drop-shadow-2xl relative z-10 transition-transform duration-500 hover:scale-105"
+            className="w-full h-auto max-h-[40vh] md:max-h-[70vh] object-contain drop-shadow-xl relative z-10"
           />
         </div>
 
         {/* Details Section */}
         <div className="w-full md:w-3/5 flex flex-col h-full bg-white max-h-[50vh] md:max-h-[90vh] overflow-y-auto custom-scrollbar">
-          <div className="p-8 lg:p-10">
+          <div className="p-6 sm:p-8 lg:p-10">
             <h2 className="text-2xl md:text-3xl font-black text-gray-900 mb-6 leading-tight">
               {t(`catalog.${product.id}.name`)}
             </h2>
@@ -83,7 +88,7 @@ const ProductModal = ({ product, isOpen, onClose }) => {
             <div className="space-y-2">
               {/* Features */}
               <div className="mb-2">
-                <AccordionHeader title={t('productDetails.featuresLabel')} section="features" />
+                <AccordionHeader title={t('productDetails.featuresLabel')} section="features" isOpen={openSections.features} onToggle={toggleSection} />
                 {openSections.features && (
                   <p className="py-4 text-gray-600 leading-relaxed text-sm md:text-base">
                     {t(`catalog.${product.id}.features`)}
@@ -93,7 +98,7 @@ const ProductModal = ({ product, isOpen, onClose }) => {
 
               {/* Usage Areas */}
               <div className="mb-2">
-                <AccordionHeader title={t('productDetails.usageAreasLabel')} section="usage" />
+                <AccordionHeader title={t('productDetails.usageAreasLabel')} section="usage" isOpen={openSections.usage} onToggle={toggleSection} />
                 {openSections.usage && (
                   <p className="py-4 text-gray-600 leading-relaxed text-sm md:text-base">
                     {t(`catalog.${product.id}.usageAreas`)}
@@ -103,7 +108,7 @@ const ProductModal = ({ product, isOpen, onClose }) => {
 
               {/* How to Use */}
               <div className="mb-2">
-                <AccordionHeader title={t('productDetails.howToUseLabel')} section="howTo" />
+                <AccordionHeader title={t('productDetails.howToUseLabel')} section="howTo" isOpen={openSections.howTo} onToggle={toggleSection} />
                 {openSections.howTo && (
                   <p className="py-4 text-gray-600 leading-relaxed text-sm md:text-base">
                     {t(`catalog.${product.id}.howToUse`)}
@@ -114,7 +119,7 @@ const ProductModal = ({ product, isOpen, onClose }) => {
               {/* Technical Info */}
               {Array.isArray(techInfo) && techInfo.length > 0 && (
                 <div className="mb-2">
-                  <AccordionHeader title={t('productDetails.techInfoLabel')} section="tech" />
+                  <AccordionHeader title={t('productDetails.techInfoLabel')} section="tech" isOpen={openSections.tech} onToggle={toggleSection} />
                   {openSections.tech && (
                     <div className="py-4 grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-6">
                       {techInfo.map((item, idx) => (
@@ -131,7 +136,7 @@ const ProductModal = ({ product, isOpen, onClose }) => {
               {/* Packaging */}
               {Array.isArray(packagingInfo) && packagingInfo.length > 0 && (
                 <div className="mb-2">
-                  <AccordionHeader title={t('productDetails.packagingLabel')} section="packaging" />
+                  <AccordionHeader title={t('productDetails.packagingLabel')} section="packaging" isOpen={openSections.packaging} onToggle={toggleSection} />
                   {openSections.packaging && (
                     <div className="py-4 grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-6">
                       {packagingInfo.map((item, idx) => (

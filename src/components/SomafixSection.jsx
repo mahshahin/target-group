@@ -16,7 +16,7 @@ const SomafixSection = () => {
           <div className="lg:w-[42%] flex justify-center lg:justify-start">
             <div className="relative w-full max-w-md">
               <div className="absolute inset-6 bg-somafix-red/10 rounded-[2.5rem] blur-2xl -z-10" aria-hidden="true" />
-              <div className="bg-white rounded-3xl border border-gray-100 p-10 shadow-card-hover">
+              <div className="bg-white rounded-3xl border border-gray-100 p-8 sm:p-10 shadow-card-hover">
                 <img
                   src={`${import.meta.env.BASE_URL}assets/soma-logo-transparent.png`}
                   alt={t('somafix.alt')}
@@ -33,7 +33,7 @@ const SomafixSection = () => {
               {t('somafix.badge')}
             </span>
 
-            <h2 className="text-3xl md:text-4xl lg:text-[2.6rem] font-black text-gray-900 leading-[1.35] tracking-tightest mb-5">
+            <h2 className="text-3xl md:text-4xl lg:text-[2.6rem] font-black text-gray-900 leading-[1.3] tracking-tightest mb-5">
               {t('somafix.titlePrefix')}<span className="text-somafix-red">{t('somafix.titleHighlight')}</span>
             </h2>
 
@@ -45,7 +45,7 @@ const SomafixSection = () => {
               {['f1', 'f2', 'f3'].map((key) => (
                 <div
                   key={key}
-                  className="flex items-center gap-3 bg-gray-50 px-5 py-4 rounded-2xl border border-gray-100 shadow-card hover:shadow-card-hover transition-shadow"
+                  className="flex items-center gap-3 bg-gray-50 px-5 py-4 rounded-2xl border border-gray-100"
                 >
                   <CheckCircle2 className="text-somafix-red flex-shrink-0" size={22} />
                   <span className="font-bold text-gray-800 text-sm">{t(`somafix.features.${key}`)}</span>

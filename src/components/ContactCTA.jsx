@@ -9,7 +9,7 @@ const ContactCTA = () => {
   return (
     <section id="contact" className="py-20 lg:py-24 bg-white relative">
       <div className="container-site">
-        <div className="relative max-w-4xl mx-auto bg-gradient-to-br from-target-green-deep to-target-green rounded-[2.5rem] p-10 md:p-16 text-center overflow-hidden shadow-card-hover">
+        <div className="relative max-w-4xl mx-auto bg-gradient-to-br from-target-green-deep to-target-green rounded-3xl sm:rounded-[2.5rem] p-6 sm:p-10 md:p-16 text-center overflow-hidden shadow-card-hover">
           {/* Decorative dots pattern (inline, no external assets) */}
           <div
             className="absolute inset-0 opacity-[0.06] pointer-events-none"
@@ -39,7 +39,7 @@ const ContactCTA = () => {
             <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
               <a
                 href={`tel:${siteData.contact.phone.replace(/\s+/g, '')}`}
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-white text-target-green-deep px-9 py-4 rounded-full font-black hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl text-base"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-white text-target-green-deep px-8 py-4 rounded-full font-bold hover:bg-gray-100 transition-all duration-300 shadow-card hover:shadow-card-hover text-base"
               >
                 <Phone size={22} />
                 {t('contactCta.callUs')}
@@ -49,7 +49,7 @@ const ContactCTA = () => {
                 href={`https://wa.me/${siteData.contact.whatsapp.replace(/\D/g, '')}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-[#25D366] text-white px-9 py-4 rounded-full font-black hover:bg-[#20bd5a] transition-all duration-300 shadow-lg hover:shadow-xl text-base"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-[#25D366] text-white px-8 py-4 rounded-full font-bold hover:bg-[#20bd5a] transition-all duration-300 shadow-card hover:shadow-card-hover text-base"
               >
                 <FaWhatsapp size={22} />
                 WhatsApp
@@ -57,7 +57,7 @@ const ContactCTA = () => {
 
               <a
                 href={`mailto:${siteData.contact.email}`}
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-3 border-2 border-white/70 text-white px-9 py-4 rounded-full font-bold hover:bg-white/10 transition-all duration-300 text-base"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-3 border-2 border-white/70 text-white px-8 py-4 rounded-full font-bold hover:bg-white/10 transition-all duration-300 text-base"
               >
                 <Mail size={22} />
                 {t('contactCta.emailUs')}

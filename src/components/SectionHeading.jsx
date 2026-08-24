@@ -35,7 +35,7 @@ const SectionHeading = ({
       )}
 
       <h2
-        className={`text-3xl md:text-4xl lg:text-[2.6rem] font-black leading-snug tracking-tightest ${
+        className={`text-3xl md:text-4xl lg:text-[2.6rem] font-black leading-[1.3] tracking-tightest ${
           isDark ? 'text-white' : 'text-gray-900'
         }`}
       >
