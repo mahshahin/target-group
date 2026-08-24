@@ -16,11 +16,11 @@ const SomafixSection = () => {
           <div className="lg:w-[42%] flex justify-center lg:justify-start">
             <div className="relative w-full max-w-md">
               <div className="absolute inset-6 bg-somafix-red/10 rounded-[2.5rem] blur-2xl -z-10" aria-hidden="true" />
-              <div className="bg-white rounded-3xl border border-gray-100 p-8 sm:p-10 shadow-card-hover">
+              <div className="p-4 sm:p-8">
                 <img
                   src={`${import.meta.env.BASE_URL}assets/soma-logo-transparent.png`}
                   alt={t('somafix.alt')}
-                  className="w-full h-auto object-contain drop-shadow-sm"
+                  className="w-full h-auto object-contain drop-shadow-xl transform hover:scale-105 transition-transform duration-500"
                   loading="lazy"
                 />
               </div>
