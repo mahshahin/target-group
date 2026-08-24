@@ -14,7 +14,7 @@ const Hero = () => {
     >
       {/* Background Image spanning the entire section */}
       <img
-        src={isRTL ? `${import.meta.env.BASE_URL}assets/main-products.jpg` : `${import.meta.env.BASE_URL}assets/main-products-en.jpg`}
+        src={isRTL ? `${import.meta.env.BASE_URL}assets/main-products.webp` : `${import.meta.env.BASE_URL}assets/main-products-en.webp`}
         alt={t('hero.mainImageAlt')}
         className={`absolute inset-0 w-full h-full object-cover lg:object-fill mix-blend-multiply opacity-100 pointer-events-none z-0 ${isRTL ? 'object-left' : 'object-right'}`}
         style={{ filter: 'contrast(1.02)' }}

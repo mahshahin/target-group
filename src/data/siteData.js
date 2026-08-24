@@ -117,13 +117,13 @@ export const siteData = {
     { number: 'جميع المحافظات', text: 'تغطية وتوصيل' }
   ],
   exhibitions: [
-    { id: 1, name: 'اسم المعرض الأول', image: 'https://via.placeholder.com/600x400?text=Exhibition+1', video: '' },
-    { id: 2, name: 'اسم المعرض الثاني', image: 'https://via.placeholder.com/600x400?text=Exhibition+2', video: '' },
-    { id: 3, name: 'اسم المعرض الثالث', image: 'https://via.placeholder.com/600x400?text=Exhibition+3', video: '' },
-    { id: 4, name: 'اسم المعرض الرابع', image: 'https://via.placeholder.com/600x400?text=Exhibition+4', video: '' },
-    { id: 5, name: 'اسم المعرض الخامس', image: 'https://via.placeholder.com/600x400?text=Exhibition+5', video: '' },
-    { id: 6, name: 'اسم المعرض السادس', image: 'https://via.placeholder.com/600x400?text=Exhibition+6', video: '' },
-    { id: 7, name: 'اسم المعرض السابع', image: 'https://via.placeholder.com/600x400?text=Exhibition+7', video: '' },
-    { id: 8, name: 'اسم المعرض الثامن', image: 'https://via.placeholder.com/600x400?text=Exhibition+8', video: '' },
+    { id: 1, name: 'اسم المعرض الأول', image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&h=400&fit=crop', video: '' },
+    { id: 2, name: 'اسم المعرض الثاني', image: 'https://images.unsplash.com/photo-1551818255-e6e10975bc17?w=600&h=400&fit=crop', video: '' },
+    { id: 3, name: 'اسم المعرض الثالث', image: 'https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=600&h=400&fit=crop', video: '' },
+    { id: 4, name: 'اسم المعرض الرابع', image: 'https://images.unsplash.com/photo-1531058020387-3be344556be6?w=600&h=400&fit=crop', video: '' },
+    { id: 5, name: 'اسم المعرض الخامس', image: 'https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=600&h=400&fit=crop', video: '' },
+    { id: 6, name: 'اسم المعرض السادس', image: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=600&h=400&fit=crop', video: '' },
+    { id: 7, name: 'اسم المعرض السابع', image: 'https://images.unsplash.com/photo-1511578314322-379afb476865?w=600&h=400&fit=crop', video: '' },
+    { id: 8, name: 'اسم المعرض الثامن', image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=600&h=400&fit=crop', video: '' },
   ]
 };
