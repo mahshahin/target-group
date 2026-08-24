@@ -16,7 +16,7 @@ const Hero = () => {
       <img
         src={isRTL ? `${import.meta.env.BASE_URL}assets/main-products.webp` : `${import.meta.env.BASE_URL}assets/main-products-en.webp`}
         alt={t('hero.mainImageAlt')}
-        className={`absolute inset-0 w-full h-full object-cover lg:object-fill mix-blend-multiply opacity-100 pointer-events-none z-0 ${isRTL ? 'object-left' : 'object-right'}`}
+        className={`absolute inset-0 w-full h-full object-cover lg:object-fill mix-blend-multiply opacity-100 pointer-events-none z-0 object-[25%_100%] ${isRTL ? 'lg:object-left' : 'lg:object-right'}`}
         style={{ filter: 'contrast(1.02)' }}
         loading="eager"
         fetchpriority="high"
