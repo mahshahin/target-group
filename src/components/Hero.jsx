@@ -14,25 +14,24 @@ const Hero = () => {
     >
       {/* Background Image spanning the entire section */}
       <img
-        src={isRTL ? `${import.meta.env.BASE_URL}assets/main-products.webp` : `${import.meta.env.BASE_URL}assets/main-products-en.webp`}
+        src={isRTL ? `${import.meta.env.BASE_URL}assets/new-hero.jpg` : `${import.meta.env.BASE_URL}assets/new-hero-en.jpg`}
         alt={t('hero.mainImageAlt')}
-        className={`absolute inset-0 w-full h-full object-cover lg:object-fill mix-blend-multiply opacity-100 pointer-events-none z-0 object-[25%_100%] ${isRTL ? 'lg:object-left' : 'lg:object-right'}`}
-        style={{ filter: 'contrast(1.02)' }}
+        className={`absolute inset-0 w-full h-full object-cover md:object-contain lg:object-cover pointer-events-none z-0 object-center md:object-center lg:object-center`}
         loading="eager"
         fetchpriority="high"
         decoding="async"
       />
 
-      {/* Subtle premium background glow */}
+      {/* Overlay to ensure text readability on mobile and desktop */}
       <div
-        className="absolute top-0 inset-x-0 h-72 bg-gradient-to-b from-target-green-light/40 to-transparent pointer-events-none z-0"
+        className={`absolute inset-0 pointer-events-none z-0 bg-white/50 lg:bg-white/30 ${isRTL ? 'lg:bg-gradient-to-l lg:from-white/80 lg:via-white/50 lg:to-white/20' : 'lg:bg-gradient-to-r lg:from-white/80 lg:via-white/50 lg:to-white/20'}`}
         aria-hidden="true"
       />
 
       <div className="container-site relative z-10 w-full">
         <div className="flex flex-col lg:flex-row lg:items-center">
           {/* Text Content */}
-          <div className="lg:w-[55%] xl:w-[50%] flex flex-col items-start text-start bg-white/60 lg:bg-transparent backdrop-blur-md lg:backdrop-blur-none p-6 sm:p-8 lg:p-0 rounded-3xl lg:rounded-none shadow-card lg:shadow-none border border-white/60 lg:border-transparent">
+          <div className="lg:w-[55%] xl:w-[50%] flex flex-col items-start text-start p-6 sm:p-8 lg:p-0 z-10 relative">
             {/* Badge */}
             <span className="inline-flex items-center gap-2 rounded-full bg-target-green-light px-4 py-2 text-sm font-bold text-target-green-dark">
               <BadgeCheck size={18} className="text-target-green" />
@@ -41,12 +40,12 @@ const Hero = () => {
 
             {/* Heading */}
             <h1 className="mt-5 text-[2rem] sm:text-[2.75rem] lg:text-[3.25rem] xl:text-[3.5rem] font-black leading-[1.15] tracking-tightest">
-              <span className="block text-target-green drop-shadow-sm">{t('hero.titleLine1')}</span>
-              <span className="block text-gray-900 drop-shadow-sm">{t('hero.titleLine2')}</span>
+              <span className="block text-target-green [text-shadow:_0_0_15px_rgba(255,255,255,1),_0_0_5px_rgba(255,255,255,0.9)]">{t('hero.titleLine1')}</span>
+              <span className="block text-gray-900 [text-shadow:_0_0_15px_rgba(255,255,255,1),_0_0_5px_rgba(255,255,255,0.9)]">{t('hero.titleLine2')}</span>
             </h1>
 
             {/* Description */}
-            <p className="mt-6 max-w-xl text-base md:text-lg lg:text-xl leading-[1.8] font-medium text-gray-700/90 drop-shadow-sm">
+            <p className="mt-6 max-w-xl text-base md:text-lg lg:text-xl leading-[1.8] font-bold text-gray-900 [text-shadow:_0_0_15px_rgba(255,255,255,1),_0_0_8px_rgba(255,255,255,1)]">
               {t('hero.desc')}
             </p>
 
