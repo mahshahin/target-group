@@ -446,6 +446,78 @@
         { "label": "Packaging", "value": "24 pcs / carton" },
         { "label": "Volume", "value": "280 ml" }
       ]
+    },
+    "s331": {
+      "name": "SOMA FIX S331 SHOWER CABIN SILICONE",
+      "features": "It is an acidic curing, one-component silicone sealant with excellent mechanical properties and adhesion power. Used as a sealant in adhesion and industrial applications with a high curing speed. Used at room temperature with air humidity. Solvent-free. Does not turn yellow. Easy to apply with a gun. It is recommended to moisturize the product at room temperature to permanently give it elastic silicone properties. Does not yellow. Better adhesion and higher safety. Surface dries fast. Small shrinkage during application. Good properties when used with tools. Elastic at low (-40 °C) and high (180 °C) temperatures.",
+      "usageAreas": "Used as a sealant in glass and window construction, in sealing joints between glass and supporting structure, and in industrial applications such as automotive, aircraft, and shipbuilding industries.",
+      "howToUse": "Make sure the surface on which the silicone is to be applied is dry, clean, and free of dust and grease. Cut the can valve and attach it to the gun. Apply the silicone on the surface in a strip. Clean any silicone residue simply with soap and water.",
+      "tech": [
+        { "label": "Chemical Base", "value": "Acidic" },
+        { "label": "Skin Formation Time", "value": "5 - 20 minutes" },
+        { "label": "Curing Speed", "value": "4 - 5 mm / day" },
+        { "label": "Density", "value": "1.01 g / cm3 ± 0.01" },
+        { "label": "Maximum Elongation", "value": "200% ± 30" },
+        { "label": "Tensile Strength", "value": "0.6 ± 0.1 N / mm2" },
+        { "label": "Shore Hardness", "value": "20" },
+        { "label": "Temperature Resistance", "value": "-40 / +180 °C" },
+        { "label": "Application Temperature", "value": "+5 / +40 °C" },
+        { "label": "Storage Temperature", "value": "+0 / +35 °C" },
+        { "label": "Colors", "value": "Transparent (S330), White (S331)" }
+      ],
+      "packaging": [
+        { "label": "Shelf Life", "value": "18 months" },
+        { "label": "Packaging", "value": "24 pcs / carton" },
+        { "label": "Volume", "value": "310 ml" }
+      ]
+    },
+    "s240": {
+      "name": "SOMA FIX S240 SANITARY SILICONE",
+      "features": "It is an acidic curing, one-component silicone sealant with excellent mechanical properties and adhesion power. Used as a sealant in kitchen and bathroom. It is recommended to moisturize the product at room temperature to permanently give it elastic silicone properties. Easy to apply with a gun at low (+5 °C) and high (+40 °C) temperatures. Elastic at low (-40 °C) and high (+180 °C) temperatures.",
+      "usageAreas": "Used in the bathroom, around shower cabins, bathtubs, sinks, at joints where tiles contact water, on kitchen sinks and counters, ceramics, glass, metal, etc. Provides excellent adhesion on surfaces.",
+      "howToUse": "The application area must be clean, dry and dust-free. Mask both sides of the area to be applied. Cut the can valve and attach it to the gun. Cut the cannula valve and insert it into the can and tighten the silicone.",
+      "tech": [
+        { "label": "Chemical Base", "value": "Acidic" },
+        { "label": "Skin Formation Time", "value": "5 - 20 minutes" },
+        { "label": "Curing Speed", "value": "4 - 5 mm / day" },
+        { "label": "Density", "value": "1.01 g / cm3 ± 0.01" },
+        { "label": "Maximum Elongation", "value": "200% ± 30" },
+        { "label": "Tensile Strength", "value": "0.6 ± 0.1 N / mm2" },
+        { "label": "Shore Hardness", "value": "20" },
+        { "label": "Temperature Resistance", "value": "-40 / +180 °C" },
+        { "label": "Application Temperature", "value": "+5 / +40 °C" },
+        { "label": "Storage Temperature", "value": "+0 / +35 °C" },
+        { "label": "Colors", "value": "Transparent (S240), White (S241)" }
+      ],
+      "packaging": [
+        { "label": "Shelf Life", "value": "18 months" },
+        { "label": "Packaging", "value": "24 pcs / carton" },
+        { "label": "Volume", "value": "280 ml" }
+      ]
+    },
+    "se293": {
+      "name": "SOMA FIX SE293 AUTO GASKET RTV SILICONE",
+      "features": "It is an acidic curing, one-component silicone sealant. Used for general purpose sealing in high temperature applications up to 350 °C. Cures at room temperature with air humidity to permanently give it elastic silicone properties. Does not sag. Elastic at low (-40 °C) and high (350 °C) temperatures. Easy to apply with a gun at low (+5 °C) and high (+40 °C) temperatures. Surface dries fast. Provides good tooling and maintains its elasticity at continuous temperatures up to 350 °C.",
+      "usageAreas": "Used in sealing joints exposed to 350 °C for a long time, in ovens and chimneys construction and in sealing connection and expansion joints exposed to high temperatures. Suitable for industrial applications. Perfectly adheres to glass surfaces, ceramic tiles, some plastics and many paints.",
+      "howToUse": "Make sure the surface on which the silicone is to be applied is dry, clean, and free of dust and grease. Cut the can valve and attach it to the gun. Apply the silicone on the surface in a strip. Clean any silicone residue simply with soap and water.",
+      "tech": [
+        { "label": "Chemical Base", "value": "Acidic" },
+        { "label": "Skin Formation Time", "value": "5 - 20 minutes" },
+        { "label": "Curing Speed", "value": "4 - 5 mm / day" },
+        { "label": "Density", "value": "1.03 g / cm3 ± 0.01" },
+        { "label": "Maximum Elongation", "value": "150% ± 30" },
+        { "label": "Tensile Strength", "value": "0.7 ± 0.1 N / mm2" },
+        { "label": "Shore Hardness", "value": "25" },
+        { "label": "Temperature Resistance", "value": "-40 / +350 °C" },
+        { "label": "Application Temperature", "value": "+5 / +40 °C" },
+        { "label": "Storage Temperature", "value": "+0 / +35 °C" },
+        { "label": "Colors", "value": "Red (S293)" }
+      ],
+      "packaging": [
+        { "label": "Shelf Life", "value": "18 months" },
+        { "label": "Packaging", "value": "24 pcs / carton" },
+        { "label": "Weight", "value": "280 g" }
+      ]
     }
   }
 }

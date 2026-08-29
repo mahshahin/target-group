@@ -84,7 +84,7 @@ const Navbar = () => {
             <img
               src={`${import.meta.env.BASE_URL}assets/target-logo-transparent.png`}
               alt="Target Group - شركة متخصصة في مواد العزل وكيماويات البناء"
-              className="h-10 sm:h-12 lg:h-[3.25rem] w-auto object-contain drop-shadow-sm transition-all duration-300"
+              className="h-10 sm:h-12 lg:h-[3.25rem] w-auto object-contain drop-shadow-md hover:drop-shadow-xl transform hover:-translate-y-0.5 transition-all duration-300"
             />
           </a>
 
