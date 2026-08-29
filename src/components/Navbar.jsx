@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Mail, Phone } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { siteData } from '../data/siteData';
 import useSectionNav from '../hooks/useSectionNav';
@@ -37,13 +37,42 @@ const Navbar = () => {
   }, [isOpen]);
 
   return (
-    <nav
-      className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${isScrolled || isOpen
-          ? 'bg-[#edf2ef] shadow-nav py-2 lg:py-3'
-          : 'bg-transparent pt-5 pb-3 lg:pt-8 lg:pb-4'
+    <>
+      {/* Top Bar */}
+      <div 
+        className={`hidden lg:block fixed top-0 w-full z-50 bg-[#111] transition-transform duration-300 text-sm ${
+          isScrolled ? '-translate-y-full' : 'translate-y-0'
         }`}
-    >
-      <div className="container-site">
+      >
+        <div className="container-site h-10 flex items-center justify-between">
+          <div className="flex items-center gap-6">
+            <span className="text-target-green font-bold flex items-center gap-2">
+              الوكيل الحصري لـ SOMAFIX في مصر
+            </span>
+            <span className="text-gray-400 border-s border-gray-700 ps-6">
+              السبت - الخميس 9 ص إلى 6 م
+            </span>
+          </div>
+          <div className="flex items-center gap-6">
+            <a href="mailto:info@target-co.net" className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors">
+              <span dir="ltr">info@target-co.net</span>
+              <Mail size={16} />
+            </a>
+            <a href="tel:+201019143218" className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors border-s border-gray-700 ps-6">
+              <span dir="ltr">+20 101 914 3218</span>
+              <Phone size={16} />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <nav
+        className={`fixed inset-x-0 z-40 transition-all duration-300 ${isScrolled || isOpen
+            ? 'top-0 bg-white shadow-nav py-2 lg:py-3'
+            : 'top-0 lg:top-10 bg-white/90 backdrop-blur-md shadow-sm py-3 lg:py-4'
+          }`}
+      >
+        <div className="container-site">
         <div className={`flex items-center justify-between transition-all duration-300`}>
           {/* Logo */}
           <a
@@ -104,7 +133,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`lg:hidden overflow-hidden transition-all duration-300 bg-[#edf2ef] ${isOpen ? 'max-h-[32rem] border-t border-gray-200 shadow-xl' : 'max-h-0'
+        className={`lg:hidden overflow-hidden transition-all duration-300 bg-white ${isOpen ? 'max-h-[32rem] border-t border-gray-200 shadow-xl' : 'max-h-0'
           }`}
       >
         <div className="container-site py-4 flex flex-col gap-1">
@@ -138,6 +167,7 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
+    </>
   );
 };
 
