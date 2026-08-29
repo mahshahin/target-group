@@ -399,8 +399,8 @@
         { "label": "Volume", "value": "310 ml" }
       ]
     },
-    "s220": {
-      "name": "Aquarium Silicone (S220 - S222)",
+    "s320": {
+      "name": "SOMA FIX S320 AQUARIUM SILICONE",
       "features": "A silicone sealant with a single acidic chemical component, characterized by excellent mechanical properties and the ability to bond to many non-porous siliceous materials without the use of a primer. It has a high curing speed in aquariums and industrial applications. It is recommended to cure the product at room temperature to give it permanently flexible silicone properties. Does not yellow. Does not sag. Special high viscosity paste. Easy to attach to the gun. Its surface dries quickly. Shrinks slightly during use. Has good properties when used with a tool. It is flexible at low temperatures (-40 °C) and high temperatures (180 °C).",
       "usageAreas": "Used in sealing joints exposed to heavy mechanical loads and in sealing joints that require the generation of rapid mechanical strength. Suitable for building aquariums that meet DIN 32 622 requirements. The adhesive thickness must be at least 1 mm. During use, the temperature must be between 5 °C and 40 °C. It is suitable for use in glazing, industrial applications, and the construction of silos and containers.",
       "howToUse": "Make sure the surface on which the silicone is to be applied is dry, clean, and free of dust and grease. Cut the tip of the can and place it in the gun. Apply the silicone on the surface in a strip. Clean any silicone residue simply with soap and water.",
@@ -409,18 +409,42 @@
         { "label": "Skin Formation Time", "value": "5 - 20 minutes" },
         { "label": "Curing Speed", "value": "4 - 5 mm / day" },
         { "label": "Density", "value": "1.01 g / cm3 ± 0.01" },
-        { "label": "Maximum Elongation", "value": "300% ± 30" },
+        { "label": "Maximum Elongation", "value": "200% ± 30" },
         { "label": "Tensile Strength", "value": "0.6 ± 0.1 N / mm2" },
         { "label": "Shore Hardness", "value": "20" },
         { "label": "Temperature Resistance", "value": "-40 / +180 °C" },
         { "label": "Application Temperature", "value": "+5 / +40 °C" },
         { "label": "Storage Temperature", "value": "+0 / +35 °C" },
-        { "label": "Colors", "value": "Transparent S220 | White S221 | Black S222" }
+        { "label": "Colors", "value": "Transparent (S220), White (S221), Black (S222)" }
       ],
       "packaging": [
         { "label": "Shelf Life", "value": "18 months" },
         { "label": "Packaging", "value": "24 pcs / carton" },
         { "label": "Volume", "value": "310 ml" }
+      ]
+    },
+    "s230": {
+      "name": "SOMA FIX S230 SHOWER CABIN SILICONE",
+      "features": "A silicone sealant with a single acidic chemical component, characterized by excellent mechanical properties and adhesion power. A silicone sealant used in bonding and industrial applications, it has a high curing speed in industrial applications. Cures at room temperature with air moisture. Solvent-free. Does not yellow. Easy to attach with a gun. It is recommended to cure the product at room temperature to give it permanently flexible silicone properties. Does not yellow. Better adhesion and higher safety. Its surface dries quickly. Shrinks slightly during use. Has good properties when used with a tool. It is flexible at low temperatures (-40 °C) and high temperatures (180 °C).",
+      "usageAreas": "Used as a sealant in glass and window construction, sealing joints between glass and support structures, and in industrial applications such as automotive, aircraft, and shipbuilding industries.",
+      "howToUse": "Make sure the surface on which the silicone is to be applied is dry, clean, and free of dust and grease. Cut the can valve and attach it to the gun. Apply the silicone on the surface in a strip. Clean any silicone residue simply with soap and water.",
+      "tech": [
+        { "label": "Chemical Base", "value": "Acidic" },
+        { "label": "Skin Formation Time", "value": "5 - 20 minutes" },
+        { "label": "Curing Speed", "value": "4 - 5 mm / day" },
+        { "label": "Density", "value": "1.01 g / cm3 ± 0.01" },
+        { "label": "Maximum Elongation", "value": "200% ± 30" },
+        { "label": "Tensile Strength", "value": "0.6 ± 0.1 N / mm2" },
+        { "label": "Shore Hardness", "value": "20" },
+        { "label": "Temperature Resistance", "value": "-40 / +180 °C" },
+        { "label": "Application Temperature", "value": "+5 / +40 °C" },
+        { "label": "Storage Temperature", "value": "+0 / +35 °C" },
+        { "label": "Colors", "value": "Transparent (S230), White (S231)" }
+      ],
+      "packaging": [
+        { "label": "Shelf Life", "value": "18 months" },
+        { "label": "Packaging", "value": "24 pcs / carton" },
+        { "label": "Volume", "value": "280 ml" }
       ]
     }
   }

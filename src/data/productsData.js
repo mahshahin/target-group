@@ -55,8 +55,13 @@ export const productsData = [
     image: `${import.meta.env.BASE_URL}assets/products/s300.jpg`,
   },
   {
-    id: "s220",
+    id: "s320",
     categorySlug: "silicone",
-    image: `${import.meta.env.BASE_URL}assets/products/s220.jpg`,
+    image: `${import.meta.env.BASE_URL}assets/products/s320.jpg`,
+  },
+  {
+    id: "s230",
+    categorySlug: "silicone",
+    image: `${import.meta.env.BASE_URL}assets/products/s230.jpg`,
   }
 ];

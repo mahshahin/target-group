@@ -40,7 +40,7 @@ const Hero = () => {
 
             {/* Heading */}
             <h1 className="mt-5 text-[2rem] sm:text-[2.75rem] lg:text-[3.25rem] xl:text-[3.5rem] font-black leading-[1.15] tracking-tightest">
-              <span className="block text-target-green [text-shadow:_0_0_15px_rgba(255,255,255,1),_0_0_5px_rgba(255,255,255,0.9)]">{t('hero.titleLine1')}</span>
+              <span className="block text-gray-900 [text-shadow:_0_0_15px_rgba(255,255,255,1),_0_0_5px_rgba(255,255,255,0.9)]">{t('hero.titleLine1')}</span>
               <span className="block text-gray-900 [text-shadow:_0_0_15px_rgba(255,255,255,1),_0_0_5px_rgba(255,255,255,0.9)]">{t('hero.titleLine2')}</span>
             </h1>
 
