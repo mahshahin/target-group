@@ -63,7 +63,7 @@ const ProductModal = ({ product, isOpen, onClose }) => {
         <button
           onClick={onClose}
           aria-label="Close"
-          className={`absolute top-4 ${isRTL ? 'left-4' : 'right-4'} z-10 w-10 h-10 bg-white/80 backdrop-blur-md rounded-full flex items-center justify-center text-gray-600 hover:bg-target-green hover:text-white transition-all shadow-sm`}
+          className={`absolute top-4 ${isRTL ? 'left-4' : 'right-4'} z-50 w-10 h-10 bg-white/80 backdrop-blur-md rounded-full flex items-center justify-center text-gray-600 hover:bg-target-green hover:text-white transition-all shadow-sm`}
         >
           <X size={20} />
         </button>
